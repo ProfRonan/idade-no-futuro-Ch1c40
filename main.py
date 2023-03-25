@@ -5,4 +5,4 @@ nome = input()
 
 soma = (ano2 - ano1) + idade
 
-print(nome, ", no ano de ", ano2, " você terá ", soma, " anos")
+print(nome, "\n, no ano de ", ano2, " você terá ", soma, " anos")
