@@ -1,7 +1,7 @@
-ano1 = int(input("Digite um ano: "))
-idade = int(input("Digite sua idade: "))
-ano2 = int(input("Digite outro ano: "))
-nome = input("Qual seu nome: ")
+ano1 = int(input())
+idade = int(input())
+ano2 = int(input())
+nome = input()
 
 soma = (ano2 - ano1) + idade
 
