@@ -1,10 +1,9 @@
-#Variaveis
-ano1 = int(input("Em que ano estamos?: "))
+ano1 = int(input("Digite o ano estamos: "))
 idade= int(input("Digite sua idade: "))
 ano2 = int(input("Digite um ano para prever sua idade: "))
 nome = input("Digite seu nome: ")
-#Calculos
-ano3 = abs(ano1 - ano2)
+
+ano3 = (ano2 - ano1)
 soma = ano3 + idade
-#Resultados
-print(f"{nome}, no ano de {ano2} você tera {soma} anos")
+
+print(nome, "no ano de ", ano2, "você tera ", soma, " anos")
