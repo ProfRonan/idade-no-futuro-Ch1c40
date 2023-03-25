@@ -1,7 +1,8 @@
 ano1 = int(input("Digite o ano estamos: "))
 idade= int(input("Digite sua idade: "))
 ano2 = int(input("Digite um ano para prever sua idade: "))
-nome = str(input("Digite seu nome: "))
+nome = (input("Digite seu nome: "))
+nome = str(nome)
 
 idade2 = (ano2 - ano1) + idade
 
