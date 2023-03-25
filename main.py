@@ -1,16 +1,11 @@
-nome = input("Digite seu nome: ")
+ano1 = int(input("Digite um ano: "))
+idade = int(input("Digite sua idade: "))
+ano2 = int(input("Digite outro ano: "))
+nome = input("Qual seu nome: ")
 
-ano1 = int(input("Digite o primeiro ano: ")
-while(ano1<0):
-    ano1 = int(input("Ano inválido, digite novamente: ")
-  
-ano2 = int(input("Digite o primeiro ano: ")
-while(ano2<0):
-    ano2 = int(input("Ano inválido, digite novamente: ")  
-    
-idade = int(input("Digite sua idade: ")
-while(idade<0):
-    idade = int(input("Idade inválida, digite novamente: ")
-    
-novaIdade = (ano2-ano1)+idade
-print(f"A idade é {idade}")
+soma = (ano2 - ano1) + idade
+
+if soma < 0:
+    print("Idade invalida")
+else:
+    print(f"{nome}, no ano de {ano2} você terá {soma} anos")
