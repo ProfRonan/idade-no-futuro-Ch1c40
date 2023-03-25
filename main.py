@@ -1,9 +1,16 @@
-ano1 = int(input("Digite o ano estamos: "))
-idade= int(input("Digite sua idade: "))
-ano2 = int(input("Digite um ano para prever sua idade: "))
-nome = (input("Digite seu nome: "))
-nome = str(nome)
+nome = input("Digite seu nome: ")
 
-idade2 = (ano2 - ano1) + idade
-
-print(f"{nome}, no ano de {ano2} você terá {idade2} anos")
+ano1 = int(input("Digite o primeiro ano: ")
+while(ano1<0):
+    ano1 = int(input("Ano inválido, digite novamente: ")
+  
+ano2 = int(input("Digite o primeiro ano: ")
+while(ano2<0):
+    ano2 = int(input("Ano inválido, digite novamente: ")  
+    
+idade = int(input("Digite sua idade: ")
+while(idade<0):
+    idade = int(input("Idade inválida, digite novamente: ")
+    
+novaIdade = (ano2-ano1)+idade
+print(f"A idade é {idade}")
